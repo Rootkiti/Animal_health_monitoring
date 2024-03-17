@@ -3,8 +3,8 @@ This machine learning model utilizes symptom inputs to accurately diagnose disea
 
 ## Overview
 
-In this repo, i will be using data obtained from kaggel.
-the dataset contains information about 4 unique animals but, i will be more focused on `Cow`.
+In this repo, I will be using data obtained from kaggel.
+The dataset contains information about 4 unique animals but, i will be more focused on `Cow`.
 I will be exploring many classification algorithms using this dataset and each algorithm will have its unique file and later in this journey I will commbine all algorithms in one file and select the one that will score the highest.
 
 ### Algorithms that i will use
