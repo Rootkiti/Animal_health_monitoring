@@ -17,7 +17,7 @@ I will be exploring many classification algorithms using this dataset and each a
 6. Gradient Boosting Machines
 
 
-#### Decision Tree
+#### 1. Decision Tree
 
 Result & Approach for Algrithm 1 Decision Tree
 
@@ -42,7 +42,7 @@ my model had a depth of 24 (default) and I decided to find out if there was any 
 
 After the plot, I found out that the depth that could give me the best score was 13, and from there I came to the final model which scored 0.79 which I can say is better than 0.78
 
-#### Logistic Regression
+#### 2. Logistic Regression
 
 Approach and everthing are the same the different here in tha algorithm used `LinearRegressor`
 
@@ -55,3 +55,20 @@ on validation data: 0.82
 Both Algorithms use the same data but their performance are different.
 
 DecisionTree performed well on training data but looking at testing and validation accuracies, LogisticRegressor is scoring higher.
+
+#### 3. Random Forest classifier
+
+RandomForestClassifier Results with defaoult parametors
+
+on training data: 0.94
+on testing data: 0.77
+
+I tried This model on different values for `n_estimators`, `max_depth`, and `min_samples_split` and rusults are:
+
+on training data: 0.86
+on testing data: 0.82
+
+
+
+
+
